@@ -38,7 +38,7 @@
             <p>
 
 
-            <!--
+                <!--
                 Initial FHIR-Bundle and Signing-Key
             -->
             <div style="display: flex; max-height: null;">
@@ -302,6 +302,8 @@
         //
         function validate(element, url, section) {
 
+            const errorLabels = ["Debug", "Info", "Warning", "Error", "Fatal"];
+
             async function validator() {
                 const text = element.value.replace(/\n/g, '');
 
@@ -314,7 +316,7 @@
                 const validation = await restCall(url, { data: text }, 'POST');
 
                 if (validation.errors.length) {
-                    const message = validation.errors.map(e => JSON.stringify(e)).join('\n');
+                    const message = validation.errors.map(e => `· ${e.message} (${errorLabels[e.level]})`).join('\n');
                     section.setError(message, element.id);
                 } else {
                     section.clearError(element.id);
