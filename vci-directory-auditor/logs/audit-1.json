@@ -1,0 +1,11 @@
+{
+    "directory": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-1/test-directory.json",
+    "time": "2021-08-19 11:53:36",
+    "issuerCount": 3,
+    "issuersWithErrors": [],
+    "duplicatedKids": [
+        "3Kfdg-XwP-7gXyywtUfUADwBumDOPKMQx-iELL11W9s"
+    ],
+    "duplicatedIss": [],
+    "duplicatedNames": []
+}

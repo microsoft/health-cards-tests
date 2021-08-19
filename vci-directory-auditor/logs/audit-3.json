@@ -1,0 +1,32 @@
+{
+    "directory": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/test-directory.json",
+    "time": "2021-08-19 11:54:18",
+    "issuerCount": 5,
+    "issuersWithErrors": [
+        {
+            "issuer": {
+                "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/unreachable",
+                "name": "Test issuer 6"
+            },
+            "keys": [],
+            "errors": [
+                "HTTPError: Response code 404 (Not Found)"
+            ]
+        }
+    ],
+    "duplicatedKids": [],
+    "duplicatedIss": [],
+    "duplicatedNames": [
+        "Test issuer 1"
+    ],
+    "newIssuerCount": 2,
+    "deletedIssuerCount": 1,
+    "removedKids": [
+        {
+            "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit/test-issuer-3",
+            "kids": [
+                "3Kfdg-XwP-7gXyywtUfUADwBumDOPKMQx-iELL11W9s"
+            ]
+        }
+    ]
+}

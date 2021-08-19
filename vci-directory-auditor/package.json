@@ -1,0 +1,29 @@
+{
+  "name": "vci-directory-auditor",
+  "version": "1.0.0",
+  "description": "Audit tool for the VCI Issuers Directory",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "audit": "ts-node --files src/index.ts",
+    "test": "ts-node --files src/index.ts --directory 'https://raw.githubusercontent.com/smart-on-fhir/health-cards-validation-SDK/main/testdata/test-issuers.json'",
+    "test-audit-1": "ts-node --files src/index.ts -t -d 'https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-1/test-directory.json' -a logs/audit-1.json -l logs/dirlog-1.json",
+    "test-audit-2": "ts-node --files src/index.ts -t -d 'https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-2/test-directory.json' -a logs/audit-2.json -l logs/dirlog-2.json -p logs/dirlog-1.json",
+    "test-audit-3": "ts-node --files src/index.ts -t -d 'https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/test-directory.json' -a logs/audit-3.json -l logs/dirlog-3.json -p logs/dirlog-2.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "date-and-time": "^1.0.1",
+    "fs": "*",
+    "got": "^11.8.2",
+    "node-jose": "^2.0.0",
+    "path": "^0.12.7",
+    "ts-node": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/date-and-time": "^0.13.0",
+    "@types/node-jose": "^1.1.8"
+  }
+}
