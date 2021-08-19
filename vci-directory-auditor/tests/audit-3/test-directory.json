@@ -1,23 +1,23 @@
 {
   "participating_issuers": [
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/test-issuer-1",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-3/test-issuer-1",
       "name": "Test issuer 1"
     },
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/test-issuer-3",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-3/test-issuer-3",
       "name": "Test issuer 3"
     },
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/test-issuer-4",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-3/test-issuer-4",
       "name": "Test issuer 4"
     },
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/test-issuer-5",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-3/test-issuer-5",
       "name": "Test issuer 1"
     },
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-3/unreachable",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-3/unreachable",
       "name": "Test issuer 6"
     }
 

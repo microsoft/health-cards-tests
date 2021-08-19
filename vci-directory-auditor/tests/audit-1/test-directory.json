@@ -1,15 +1,15 @@
 {
   "participating_issuers": [
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-1/test-issuer-1",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-1/test-issuer-1",
       "name": "Test issuer 1"
     },
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-1/test-issuer-2",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-1/test-issuer-2",
       "name": "Test issuer 2"
     },
     {
-      "iss": "https://raw.githubusercontent.com/christianpaquin/void/main/shc/audit-1/test-issuer-3",
+      "iss": "https://raw.githubusercontent.com/microsoft/health-cards-tests/blob/vci-directory-auditor/vci-directory-auditor/tests/audit-1/test-issuer-3",
       "name": "Test issuer 3"
     }
   ]
