@@ -36,7 +36,7 @@
     "deepcopy": "^2.1.0",
     "express": "^4.17.1",
     "fhirclient": "^2.3.10",
-    "jose": "^1.28.0",
+    "jose": "^1.28.2",
     "jose-jwe-jws": "^0.2.2",
     "js-sha256": "^0.9.0",
     "json-canonicalize": "^1.0.3",
