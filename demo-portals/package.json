@@ -18,7 +18,7 @@
         "@types/pako": "^1.0.1",
         "@types/qrcode": "^1.4.0",
         "@types/showdown": "^1.9.3",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "github-markdown-css": "^4.0.0",
         "got": "^11.8.2",
         "health-cards-validation-sdk": "git+https://github.com/microsoft/health-cards-validation-SDK.git",
